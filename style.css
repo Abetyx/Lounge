@@ -196,8 +196,12 @@ h1 {
     background-color: rgba(58, 56, 56, 0.027);
 }
 
-.bda {
+.vid {
     z-index: 1;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:35px;
 }
 
 video {
