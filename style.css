@@ -211,15 +211,16 @@ h1 {
         padding-top: 23%;
     }
 
-    @media screen and (min-width: 570px) {
+    @media screen and (min-width: 70px) {
         video {
             display: block;
             width:480px;
             margin:0 auto 35px auto;
-            padding-top: 15%;
+            padding-top: 25%;
         }
         video {
-            width: 60%;
+            margin-right: 8%;
+            width: 90%;
         }
     }
     @media screen and (min-width: 870px) {
