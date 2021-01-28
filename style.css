@@ -226,3 +226,28 @@ h1 {
         padding-top: 100px;
     }
 }
+
+@media screen and (min-width: 1070px) {
+    
+    .columns {
+        display:flex;
+    }
+
+        div.column {
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 5%;
+       }
+}
+
+.columns {
+
+    display: column;
+}
+
+    
+        div.column {
+        margin-right: 10%;
+        margin-left: 5%;
+        margin-top: 5%;
+       }
