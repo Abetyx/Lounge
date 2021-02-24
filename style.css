@@ -259,14 +259,12 @@ h1 {
     }
 }
 /*
-
 @media screen and (max-width: 2560px) {
     video {
         width: auto;
         margin: auto auto auto auto;
     }
 }
-
 @media screen and (min-width: 10px) {
         video {
             margin-top: 20%;
@@ -276,10 +274,8 @@ h1 {
             margin-bottom:35px;
         }
     }
-
 @media screen and (max-width: 2560px) {
     video {
-
         display:block;
         width:800px;
         margin:0 auto 35px auto;
@@ -309,5 +305,9 @@ h1 {
         div.column {
         margin-right: 10%;
         margin-left: 5%;
-        margin-top: 5%;
+        margin-top: 2%;
+       }
+
+       div.columns {
+           padding-bottom: 3%;
        }
