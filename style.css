@@ -286,8 +286,12 @@ h1 {
        div.columns {
            padding-bottom: 3%;
        }
+    }
 
        div.footer {
+           
+        text-align: center;
+           padding-top: 2%;
            margin-top: 1%;
            background-color: rgb(83 79 79);
        }
@@ -296,12 +300,25 @@ h1 {
            background-color: transparent;
            color: white;
            text-shadow: 0px 2px 6px #000;
-           padding-top: 1%;
+           margin-top: 0.5%;
+           padding-bottom: 5%;
        }
 
-       div.footer p {
+       div.footer span.span p {
+           display: contents;
            font-family: 'Montserrat', sans-serif;
-           font-weight: 50;
-           text-align: center;
            color: white;
        }
+
+
+
+       div.footer p.copyright {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 10;
+        color: white;
+        display:flex;
+        padding-top: 6%;
+        flex-direction:column;
+    }
+
+
